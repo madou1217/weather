@@ -1,0 +1,30 @@
+{
+    "name": "madou1217\/weather",
+    "description": "高德天气",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Model",
+            "email": "madou1217@126.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Madou1217\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Madou1217\\Weather\\ServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    }
+}
