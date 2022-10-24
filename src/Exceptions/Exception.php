@@ -2,7 +2,7 @@
 
 namespace Madou1217\Weather\Exceptions;
 
-class HttpException extends Exception
+class Exception extends \Exception
 {
 
 }
