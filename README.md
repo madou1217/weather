@@ -53,7 +53,7 @@ return [
 ]
 ```
 
-#### 可以用两种方式来获取 Overtrue\Weather\Weather 实例：
+#### 可以用两种方式来获取 Madou1217\Weather\Weather 实例：
 
 - 方法参数注入
 
